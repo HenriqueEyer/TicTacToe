@@ -1,68 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse é um projeto para o conteúdo da semana 16, sobre `RTL`.
 
-## Available Scripts
+### Antes de iniciar
 
-In the project directory, you can run:
+Crie um fork desse projeto, para isso siga esse [tutorial de como realizar um fork](https://github.com/facebook/create-react-app).
 
-### `npm start`
+Ápos feito o fork, clone o repositório criado para o seu computador.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Rode o `npm install`.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Vá para a branch master do seu projeto e execute o comando:
+- `git branch`, verifique se apareceu as branches:
 
-### `npm test`
+  `exercise-one`
+  `exercise-2`
+  `exercise-3`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Cada branch dessas será um exercício.
+- Mude para a branch `exercise-one`: `git checkout exercise-one`. Nessa branch é onde vocẽ realizará a solução para o exercício 1, e assim por diante.
 
-### `npm run build`
+Observe o que deve ser feito nas instruções para cada exercício.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ápos a solução dos exercícios, abra um PR no repositório, se quiser pode merger para a master, fique livre!
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Atenção, quando for criar o PR você se deparará com essa tela:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![PR do exercício](images/example-pr.png)
 
-### `npm run eject`
+É necessário realizar uma mudança, clique no *base repository* como na imagem abaixo:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Mudando a base do repositório](images/change-base.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Mude para o seu repositório, seu nome estará na frente do nome dele, exemplo `antonio/TicTacToe`. Depois desse passo a página deve ficar assim:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Ápos mudança](images/after-change.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Ai só criar o pr clicando no botão `Create Pull Request`.
 
-## Learn More
+Para cada PR realize esse processo.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### COMEÇANDO OS EXERCÍCIOS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Exercício 1
 
-### Code Splitting
+Teste as configurações iniciais do jogo, como ele começa:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Campos vazios;
+- Sem mensagem de Fim de jogo;
+- 9 Casas renderizadas.
 
-### Analyzing the Bundle Size
+Fique livre para adicionar novos testes.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+---
 
-### Making a Progressive Web App
+#### Exercício 2
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Teste o comportamento de cada casa, alguns exemplos:
 
-### Advanced Configuration
+- O símbolo mudar quando clica em uma e depois em outra, mostrando a troca do jogador;
+- Casa não pode ser mudada depois de escolhida por algum jogador;
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Caso tenha dúvida volte no conteúdo ou olhe na documentação, lembre que abordamos apenas algumas querys, tem outras que podem ser utilizadas.
 
-### Deployment
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+#### Exercício 3 
 
-### `npm run build` fails to minify
+Agora você fará funcionalidade de acordo com o teste já criado para ela.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Precisamos saber quando que o jogo acaba, os testes já foram realizados, mas se roda-lós verá que nenhum passa. Essa funcionalidade ainda não está pronta e precisa ser criada.
+
+Crie a aplicação observando os teste, eles te guiaram para realiza-lá. 
+
+Bônus - Nossos testes não cobrem caso de empate ou quem foi o ganhador.
+
+- Crie uma mensagem para ver quem é o vencedor ou quando acontecer o empate.
+- Crie os teste para essa nova funcionalidade.
+- Adicione um botão para recomeçar o jogo. Crie os teste para ele.
