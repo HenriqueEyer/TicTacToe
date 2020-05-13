@@ -65,7 +65,7 @@ Caso tenha dúvida volte no conteúdo ou olhe na documentação, lembre que abor
 
 #### Exercício 3 
 
-Agora você fará funcionalidade de acordo com o teste já criado para ela.
+Agora você fará funcionalidade de acordo com o teste já criado para ela. A funcionalidade deve ser criada no arquivo TicTacToe.js, boa parte dele já está criado, fique atento com as instruções passadas
 
 Precisamos saber quando que o jogo acaba, os testes já foram realizados, mas se roda-lós verá que nenhum passa. Essa funcionalidade ainda não está pronta e precisa ser criada.
 
