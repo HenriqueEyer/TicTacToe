@@ -36,7 +36,7 @@ Mude para o seu repositório, seu nome estará na frente do nome dele, exemplo `
 
 Ai só criar o pr clicando no botão `Create Pull Request`.
 
-Para cada exercício realize esse processo.
+Para cada PR realize esse processo.
 
 ### COMEÇANDO OS EXERCÍCIOS
 
@@ -50,6 +50,8 @@ Teste as configurações iniciais do jogo, como ele começa:
 
 Fique livre para adicionar novos testes.
 
+---
+
 #### Exercício 2
 
 Teste o comportamento de cada casa, alguns exemplos:
@@ -58,6 +60,8 @@ Teste o comportamento de cada casa, alguns exemplos:
 - Casa não pode ser mudada depois de escolhida por algum jogador;
 
 Caso tenha dúvida volte no conteúdo ou olhe na documentação, lembre que abordamos apenas algumas querys, tem outras que podem ser utilizadas.
+
+---
 
 #### Exercício 3 
 
