@@ -14,8 +14,8 @@ Vá para a branch master do seu projeto e execute o comando:
 Verifique se as seguintes branchs apareceram:
 
   `exercise-one`
-  `exercise-two`
-  `exercise-three`
+  `exercise-2`
+  `exercise-3`
 
 - Cada branch dessas será um exercício.
 - Mude para a branch `exercise-one` com o comando `git checkout exercise-one`. É nessa branch que você realizará a solução para o exercício 1, e assim por diante.
