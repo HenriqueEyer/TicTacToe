@@ -8,6 +8,7 @@ Crie um fork desse projeto, para isso siga esse [tutorial de como realizar um fo
 
 Vá para a branch master do seu projeto e execute o comando:
 - `git branch`, verifique se apareceu as branches:
+
   `exercise-2`
   `exercise-3`
   `exercise-one`
