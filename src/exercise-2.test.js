@@ -6,10 +6,12 @@ afterEach(cleanup);
 // Alguns describe já possuem a orientação do que precisa ser testado.
 // Pode modifica-lós mas lembre que os teste precisam testar todo o comportamento,
 // Das casas. 
+// Funcionalidade não está pronta portanto esse teste não passará,
+// necessário criar a funcionalidade também.
 describe("Comportamento de cada casa", () => {
   test('Ao clicar em um casa deve adicionar o símbolo apenas naquele lugar', () => {
     const {getByTestId, getAllByAltText, queryByAltText} = render(<TicTacToe />);
-
+    // Pode modificar esse teste para se adequar a forma que estiver fazendo o jogo.
     // Aqui está simulando o clique em uma casa
     fireEvent.click(getByTestId('cell_0'));
     expect(getAllByAltText('X')).toHaveLength(1);
