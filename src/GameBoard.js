@@ -7,8 +7,8 @@ class GameBoard extends React.Component {
   render() {
     return (
       <div className="game-board">
-        {this.props.gameState.map(() => (
-          <GameCell />
+        {this.props.gameState.map((playerId, i) => (
+          <GameCell id={i} />
         ))}
       </div>
     );
