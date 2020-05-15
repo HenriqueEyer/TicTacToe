@@ -8,21 +8,11 @@ class GameBoard extends React.Component {
     return (
       <div className="game-board">
         {this.props.gameState.map((playerId, i) => (
-          <GameCell
-            id={i}
-            key={i}
-            onClick={() => this.props.updateGame(i)}
-            content={playerId}
-          />
+          <GameCell id={i} />
         ))}
       </div>
     );
   }
 }
-
-GameBoard.propTypes = {
-  gameState: PropTypes.arrayOf(PropTypes.number).isRequired,
-  updateGame: PropTypes.func.isRequired,
-};
 
 export default GameBoard;
