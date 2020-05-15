@@ -56,6 +56,15 @@ Fique livre para adicionar novos testes.
 
 #### Exercício 2
 
+Agora além de realizar alguns testes será necessário realizar algumas funcionalidades.
+O arquivo TicTacToe.js possuí algumas informações de como o jogo deve funcionar.
+  - Dois jogadores jogaram o jogo;
+  - A cada clique em uma casa o jogador deve ser mudado;
+  - Para cada jogador deverá possuir uma marcação (as imagens que estão no repositório, x.png, o.svg);
+  - Ao clicar na casa escolhida, a casa deve ser modificada e possuir a marcação do jogador, X ou O;
+  - Ao clicar em uma casa já marcada, nada deve acontecer;
+  - AS casas marcadas não podem ser modificadas;
+
 Teste o comportamento de cada casa, alguns exemplos:
 
 - O símbolo mudar quando clica em uma e depois em outra, mostrando a troca do jogador;
