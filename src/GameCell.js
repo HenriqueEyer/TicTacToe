@@ -11,8 +11,9 @@ import oImage from './o.svg';
 class GameCell extends React.Component {
   render() {
     const { id } = this.props;
+
     return (
-      <div data-testid={`cell_${id}`} className="game-cell" /> 
+      <div data-testid={`cell_${id}`} className="game-cell" />
     );
   }
 }
